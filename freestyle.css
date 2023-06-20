@@ -1,0 +1,70 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+header{
+	background-color: #010714;
+	color: white;
+	padding-top: 5px;
+	min-height: 40px;
+} 
+header a{
+	color: white;
+	text-decoration: none;
+}
+ header ul{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ header li{
+ 	float:left;
+ 	display: inline;
+ 	padding: 0 10px 0 10px;
+ }
+
+ header #branding {
+ 	float: left;
+ }
+ header #branding h1{
+ 	margin: 0;
+ 	margin-left: 200px;
+ }
+ header nav {
+ 	float: right;
+ 	margin-top: 10px;
+ 	margin-right: 100px;
+ }
+ header nav li:hover{
+ 	text-transform: uppercase;
+ }
+ aside .aside{
+ 	width: 50%;
+ 	float: right;
+ }
+ aside .aside p{
+ 	width: 72%;
+ }
+ .image{
+ 	float: left;
+ }
+ aside .container .aside{
+ 	margin-bottom: 500px;
+ }
+ img{
+ 	margin-top: 200px;
+ 	margin-left: 300px;
+ }
+
+button{
+	background-color: black;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 100px;
+}
